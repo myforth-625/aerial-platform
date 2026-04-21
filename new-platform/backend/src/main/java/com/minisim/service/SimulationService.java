@@ -25,7 +25,8 @@ public class SimulationService {
 
     public SimulationState startSimulation(SimulationRequest request) {
         SimulationRequest normalized = normalizeRequest(request);
-        FrameGenerator generator = hasExplicitNodes(normalized)
+        boolean algorithmConsumesNodes = algorithmRegistry.consumesNodes(normalized.getAlgorithmId());
+        FrameGenerator generator = (hasExplicitNodes(normalized) && !algorithmConsumesNodes)
                 ? staticPositionGenerator
                 : algorithmRegistry.getGenerator(normalized.getAlgorithmId());
         List<FrameData> frames = generator.generateFrames(normalized);

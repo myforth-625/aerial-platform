@@ -5,3 +5,12 @@ spring:
   jackson:
     serialization:
       write-dates-as-timestamps: true
+
+inference:
+  python-command: E:/anaconda3/envs/python3.11/python.exe
+  script-dir: ../maddpg_mAeBS-main
+  script-name: inference.py
+  model-path: models
+  work-dir: ./target/inference-work
+  timeout-seconds: 120
+  keep-work-dir: false

@@ -427,8 +427,9 @@ export default function ParameterPage() {
       const result = await startSimulation(payload);
       message.success('Simulation started');
       navigate(`/simulation/${result.id}`);
-    } catch (error) {
-      message.error('Failed to start simulation');
+    } catch (error: any) {
+      const detail = error?.response?.data?.error || error?.message;
+      message.error(detail ? `Failed to start simulation: ${detail}` : 'Failed to start simulation');
     } finally {
       setLoading(false);
     }

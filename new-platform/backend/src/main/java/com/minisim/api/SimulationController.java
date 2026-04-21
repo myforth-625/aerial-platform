@@ -4,6 +4,7 @@ import com.minisim.model.FrameData;
 import com.minisim.model.SimulationRequest;
 import com.minisim.model.SimulationState;
 import com.minisim.service.SimulationService;
+import java.util.Collections;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -22,8 +23,14 @@ public class SimulationController {
     }
 
     @PostMapping
-    public SimulationState start(@RequestBody SimulationRequest request) {
-        return simulationService.startSimulation(request);
+    public ResponseEntity<?> start(@RequestBody SimulationRequest request) {
+        try {
+            return ResponseEntity.ok(simulationService.startSimulation(request));
+        } catch (IllegalArgumentException ex) {
+            return ResponseEntity.badRequest().body(Collections.singletonMap("error", ex.getMessage()));
+        } catch (RuntimeException ex) {
+            return ResponseEntity.status(500).body(Collections.singletonMap("error", ex.getMessage()));
+        }
     }
 
     @PostMapping("/{id}/pause")
