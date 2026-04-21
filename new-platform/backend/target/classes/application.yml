@@ -1,7 +1,0 @@
-server:
-  port: 8084
-
-spring:
-  jackson:
-    serialization:
-      write-dates-as-timestamps: true
