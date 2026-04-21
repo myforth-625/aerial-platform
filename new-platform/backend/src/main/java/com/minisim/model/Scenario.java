@@ -4,15 +4,20 @@ public class Scenario {
     private String id;
     private String name;
     private String description;
+    private double centerLng;
+    private double centerLat;
     private long createdAt;
 
     public Scenario() {
     }
 
-    public Scenario(String id, String name, String description, long createdAt) {
+    public Scenario(String id, String name, String description,
+                    double centerLng, double centerLat, long createdAt) {
         this.id = id;
         this.name = name;
         this.description = description;
+        this.centerLng = centerLng;
+        this.centerLat = centerLat;
         this.createdAt = createdAt;
     }
 
@@ -38,6 +43,22 @@ public class Scenario {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public double getCenterLng() {
+        return centerLng;
+    }
+
+    public void setCenterLng(double centerLng) {
+        this.centerLng = centerLng;
+    }
+
+    public double getCenterLat() {
+        return centerLat;
+    }
+
+    public void setCenterLat(double centerLat) {
+        this.centerLat = centerLat;
     }
 
     public long getCreatedAt() {

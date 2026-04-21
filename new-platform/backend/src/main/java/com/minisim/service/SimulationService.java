@@ -1,6 +1,7 @@
 package com.minisim.service;
 
 import com.minisim.model.FrameData;
+import com.minisim.model.Scenario;
 import com.minisim.model.SimulationRequest;
 import com.minisim.model.SimulationState;
 import com.minisim.model.SimulationStatus;
@@ -13,16 +14,21 @@ import org.springframework.stereotype.Service;
 @Service
 public class SimulationService {
     private final AlgorithmRegistry algorithmRegistry;
+    private final ScenarioService scenarioService;
+    private final StaticPositionGenerator staticPositionGenerator = new StaticPositionGenerator();
     private final Map<String, SimulationSession> sessions = new ConcurrentHashMap<>();
 
-    public SimulationService(AlgorithmRegistry algorithmRegistry) {
+    public SimulationService(AlgorithmRegistry algorithmRegistry, ScenarioService scenarioService) {
         this.algorithmRegistry = algorithmRegistry;
+        this.scenarioService = scenarioService;
     }
 
     public SimulationState startSimulation(SimulationRequest request) {
         SimulationRequest normalized = normalizeRequest(request);
-        List<FrameData> frames = algorithmRegistry.getGenerator(normalized.getAlgorithmId())
-                .generateFrames(normalized);
+        FrameGenerator generator = hasExplicitNodes(normalized)
+                ? staticPositionGenerator
+                : algorithmRegistry.getGenerator(normalized.getAlgorithmId());
+        List<FrameData> frames = generator.generateFrames(normalized);
 
         SimulationState state = new SimulationState();
         state.setId(UUID.randomUUID().toString());
@@ -93,8 +99,32 @@ public class SimulationService {
         );
         normalized.setTotalSlots(request.getTotalSlots() > 0 ? request.getTotalSlots() : 30);
         normalized.setNodeCount(request.getNodeCount() > 0 ? request.getNodeCount() : 12);
-        normalized.setAreaSize(request.getAreaSize() > 0 ? request.getAreaSize() : 120.0);
+        normalized.setAreaSize(request.getAreaSize() > 0 ? request.getAreaSize() : 400.0);
         normalized.setSpeed(request.getSpeed() > 0 ? request.getSpeed() : 1.0);
+
+        normalized.setUavCount(request.getUavCount());
+        normalized.setHapCount(request.getHapCount());
+        normalized.setGroundStationCount(request.getGroundStationCount());
+        normalized.setTerminalCount(request.getTerminalCount());
+
+        Double centerLng = request.getCenterLng();
+        Double centerLat = request.getCenterLat();
+        if ((centerLng == null || centerLat == null) && request.getScenarioId() != null) {
+            Scenario scenario = scenarioService.get(request.getScenarioId());
+            if (scenario != null) {
+                if (centerLng == null) centerLng = scenario.getCenterLng();
+                if (centerLat == null) centerLat = scenario.getCenterLat();
+            }
+        }
+        normalized.setCenterLng(centerLng != null ? centerLng : ScenarioService.DEFAULT_CENTER_LNG);
+        normalized.setCenterLat(centerLat != null ? centerLat : ScenarioService.DEFAULT_CENTER_LAT);
+
+        normalized.setNodes(request.getNodes());
+
         return normalized;
+    }
+
+    private static boolean hasExplicitNodes(SimulationRequest request) {
+        return request.getNodes() != null && !request.getNodes().isEmpty();
     }
 }

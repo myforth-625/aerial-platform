@@ -11,11 +11,21 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class ScenarioService {
+    public static final double DEFAULT_CENTER_LNG = 116.3544;
+    public static final double DEFAULT_CENTER_LAT = 39.9883;
+
     private final Map<String, Scenario> scenarios = new ConcurrentHashMap<>();
 
     public ScenarioService() {
         String id = UUID.randomUUID().toString();
-        scenarios.put(id, new Scenario(id, "Demo Scenario", "Seed scenario for testing", System.currentTimeMillis()));
+        scenarios.put(id, new Scenario(
+                id,
+                "Demo Scenario",
+                "Seed scenario for testing",
+                DEFAULT_CENTER_LNG,
+                DEFAULT_CENTER_LAT,
+                System.currentTimeMillis()
+        ));
     }
 
     public List<Scenario> list() {
@@ -28,7 +38,9 @@ public class ScenarioService {
                 ? "Scenario " + id.substring(0, 6)
                 : request.getName().trim();
         String description = request.getDescription() == null ? "" : request.getDescription().trim();
-        Scenario scenario = new Scenario(id, name, description, System.currentTimeMillis());
+        double centerLng = request.getCenterLng() != null ? request.getCenterLng() : DEFAULT_CENTER_LNG;
+        double centerLat = request.getCenterLat() != null ? request.getCenterLat() : DEFAULT_CENTER_LAT;
+        Scenario scenario = new Scenario(id, name, description, centerLng, centerLat, System.currentTimeMillis());
         scenarios.put(id, scenario);
         return scenario;
     }

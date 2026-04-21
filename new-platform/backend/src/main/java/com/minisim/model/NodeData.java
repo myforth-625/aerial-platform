@@ -2,20 +2,26 @@ package com.minisim.model;
 
 public class NodeData {
     private String id;
-    private String type;
-    private double x;
-    private double y;
-    private double z;
+    private NodeType type;
+    private double lng;
+    private double lat;
+    private double height;
+    private String name;
 
     public NodeData() {
     }
 
-    public NodeData(String id, String type, double x, double y, double z) {
+    public NodeData(String id, NodeType type, double lng, double lat, double height) {
         this.id = id;
         this.type = type;
-        this.x = x;
-        this.y = y;
-        this.z = z;
+        this.lng = lng;
+        this.lat = lat;
+        this.height = height;
+    }
+
+    public NodeData(String id, NodeType type, double lng, double lat, double height, String name) {
+        this(id, type, lng, lat, height);
+        this.name = name;
     }
 
     public String getId() {
@@ -26,35 +32,43 @@ public class NodeData {
         this.id = id;
     }
 
-    public String getType() {
+    public NodeType getType() {
         return type;
     }
 
-    public void setType(String type) {
+    public void setType(NodeType type) {
         this.type = type;
     }
 
-    public double getX() {
-        return x;
+    public double getLng() {
+        return lng;
     }
 
-    public void setX(double x) {
-        this.x = x;
+    public void setLng(double lng) {
+        this.lng = lng;
     }
 
-    public double getY() {
-        return y;
+    public double getLat() {
+        return lat;
     }
 
-    public void setY(double y) {
-        this.y = y;
+    public void setLat(double lat) {
+        this.lat = lat;
     }
 
-    public double getZ() {
-        return z;
+    public double getHeight() {
+        return height;
     }
 
-    public void setZ(double z) {
-        this.z = z;
+    public void setHeight(double height) {
+        this.height = height;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }

@@ -1,0 +1,648 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 133,
+      "max": [
+        0.1503320336341858,
+        0.1480482667684555,
+        0.125
+      ],
+      "min": [
+        -0.1503320187330246,
+        -0.1480480134487152,
+        0.07262042164802551
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1596,
+      "componentType": 5126,
+      "count": 133,
+      "max": [
+        0.9989782571792603,
+        0.9838016033172607,
+        1.0
+      ],
+      "min": [
+        -0.9989782571792603,
+        -0.9838016033172607,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 133,
+      "max": [
+        0.3609713017940521,
+        0.9840522408485413
+      ],
+      "min": [
+        0.02808547019958496,
+        0.6681774854660034
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 432,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 3192,
+      "componentType": 5126,
+      "count": 569,
+      "max": [
+        0.8589896559715271,
+        1.5158640146255493,
+        0.10000286251306534
+      ],
+      "min": [
+        -0.8589895963668823,
+        -1.5158641338348389,
+        -0.07404305785894394
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 10020,
+      "componentType": 5126,
+      "count": 569,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.9848076701164246,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 1064,
+      "componentType": 5126,
+      "count": 569,
+      "max": [
+        0.9980080723762512,
+        0.6917370557785034
+      ],
+      "min": [
+        0.0019920323975384235,
+        0.001380712608806789
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1728,
+      "componentType": 5125,
+      "count": 1698,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 16848,
+      "componentType": 5126,
+      "count": 4,
+      "max": [
+        0.7088862061500549,
+        1.3761836290359497,
+        0.08994802832603455
+      ],
+      "min": [
+        -0.7088865041732788,
+        -1.1208288669586182,
+        0.08994802832603455
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 16896,
+      "componentType": 5126,
+      "count": 4,
+      "max": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 5616,
+      "componentType": 5126,
+      "count": 4,
+      "max": [
+        0.7218549847602844,
+        0.6285236477851868
+      ],
+      "min": [
+        0.4144098162651062,
+        0.08704441785812378
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 8520,
+      "componentType": 5125,
+      "count": 6,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 16944,
+      "componentType": 5126,
+      "count": 122,
+      "max": [
+        0.20839554071426392,
+        0.04999995231628418,
+        0.05000000074505806
+      ],
+      "min": [
+        -0.042149484157562256,
+        -0.04999995231628418,
+        -0.05000000074505806
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 18408,
+      "componentType": 5126,
+      "count": 122,
+      "max": [
+        1.0,
+        0.9932694435119629,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 5648,
+      "componentType": 5126,
+      "count": 122,
+      "max": [
+        0.9781352281570435,
+        0.7261413335800171
+      ],
+      "min": [
+        0.8833322525024414,
+        0.47280800342559814
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 8544,
+      "componentType": 5125,
+      "count": 348,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 19872,
+      "componentType": 5126,
+      "count": 122,
+      "max": [
+        0.4101901054382324,
+        0.133122980594635,
+        0.04084205627441406
+      ],
+      "min": [
+        -0.12527251243591309,
+        0.03312307596206665,
+        -0.04084205627441406
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 21336,
+      "componentType": 5126,
+      "count": 122,
+      "max": [
+        1.0,
+        0.9920797944068909,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 6624,
+      "componentType": 5126,
+      "count": 122,
+      "max": [
+        0.42560330033302307,
+        0.9789305925369263
+      ],
+      "min": [
+        0.3733479678630829,
+        0.7283935546875
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 9936,
+      "componentType": 5125,
+      "count": 348,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Matt Gilchrist (https://sketchfab.com/MattGilchrist)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/cell-phone-793b092deff04d9fae3a368230bbc06f",
+      "title": "Cell Phone"
+    },
+    "generator": "Sketchfab-12.66.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 11328,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 7600,
+      "byteOffset": 11328,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 22800,
+      "byteOffset": 18928,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 41728,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/PhoneButtons_m_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/PhoneButtons_m_metallicRoughness.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "PhoneButtons_m",
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.5626905487804879,
+        "metallicRoughnessTexture": {
+          "index": 1
+        },
+        "roughnessFactor": 0.09584603658536572
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "PhoneBody_m",
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        },
+        "roughnessFactor": 0.35804115853658525
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0.007168042501656105,
+        0.014604236633021628,
+        0.025489015844043183
+      ],
+      "name": "PhoneScreen_M",
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.1663490853658537,
+        "metallicRoughnessTexture": {
+          "index": 1
+        },
+        "roughnessFactor": 0.10194359756097549
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "HomeButton_PhoneButtons_m_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "PhoneBody_PhoneBody_m_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "PhoneBody_PhoneScreen_M_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "PowerButton_PhoneButtons_m_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 13,
+            "POSITION": 12,
+            "TEXCOORD_0": 14
+          },
+          "indices": 15,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "VolumeButton_PhoneButtons_m_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 17,
+            "POSITION": 16,
+            "TEXCOORD_0": 18
+          },
+          "indices": 19,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "55dfebbf940a459ba2ed4034ab2d80dc.fbx"
+    },
+    {
+      "children": [
+        3,
+        5,
+        8,
+        10
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.322485327720642,
+        -0.02021721936762333,
+        1.0
+      ],
+      "name": "HomeButton"
+    },
+    {
+      "mesh": 0,
+      "name": "HomeButton_PhoneButtons_m_0"
+    },
+    {
+      "children": [
+        6,
+        7
+      ],
+      "name": "PhoneBody"
+    },
+    {
+      "mesh": 1,
+      "name": "PhoneBody_PhoneBody_m_0"
+    },
+    {
+      "mesh": 2,
+      "name": "PhoneBody_PhoneScreen_M_0"
+    },
+    {
+      "children": [
+        9
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -0.7232032418251038,
+        1.487350344657898,
+        0.007514461874961853,
+        1.0
+      ],
+      "name": "PowerButton"
+    },
+    {
+      "mesh": 3,
+      "name": "PowerButton_PhoneButtons_m_0"
+    },
+    {
+      "children": [
+        11
+      ],
+      "matrix": [
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.7488519549369812,
+        1.1450568437576294,
+        0.007514461874961853,
+        1.0
+      ],
+      "name": "VolumeButton"
+    },
+    {
+      "mesh": 4,
+      "name": "VolumeButton_PhoneButtons_m_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    }
+  ]
+}
