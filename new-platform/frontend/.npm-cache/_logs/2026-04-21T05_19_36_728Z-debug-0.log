@@ -1,0 +1,32 @@
+0 verbose cli D:\nodejs\node.exe D:\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.12.1
+2 info using node@v24.15.0
+3 silly config load:file:D:\nodejs\node_modules\npm\npmrc
+4 silly config load:file:D:\aerial-program\new-platform\frontend\.npmrc
+5 silly config load:file:C:\Users\LENOVO\.npmrc
+6 silly config load:file:D:\nodejs\node_global\etc\npmrc
+7 verbose title npm install @amap/amap-jsapi-loader@^1.0.1
+8 verbose argv "install" "--cache" "./.npm-cache" "--no-fund" "--no-audit" "@amap/amap-jsapi-loader@^1.0.1"
+9 verbose logfile logs-max:10 dir:D:\aerial-program\new-platform\frontend\.npm-cache\_logs\2026-04-21T05_19_36_728Z-
+10 verbose logfile D:\aerial-program\new-platform\frontend\.npm-cache\_logs\2026-04-21T05_19_36_728Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly idealTree buildDeps
+14 silly fetch manifest @amap/amap-jsapi-loader@^1.0.1
+15 silly packumentCache full:https://registry.npmjs.org/@amap%2famap-jsapi-loader cache-miss
+16 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+17 http fetch GET 200 https://registry.npmjs.org/npm 386ms
+18 http fetch GET 200 https://registry.npmjs.org/@amap%2famap-jsapi-loader 729ms (cache miss)
+19 silly packumentCache full:https://registry.npmjs.org/@amap%2famap-jsapi-loader set size:undefined disposed:false
+20 silly placeDep ROOT @amap/amap-jsapi-loader@1.0.1 OK for: mini-sim-frontend@0.1.0 want: ^1.0.1
+21 silly reify moves {}
+22 http cache @amap/amap-jsapi-loader@https://registry.npmjs.org/@amap/amap-jsapi-loader/-/amap-jsapi-loader-1.0.1.tgz 0ms (cache hit)
+23 silly tarball no local data for @amap/amap-jsapi-loader@https://registry.npmjs.org/@amap/amap-jsapi-loader/-/amap-jsapi-loader-1.0.1.tgz. Extracting by manifest.
+24 http fetch GET 200 https://registry.npmjs.org/@amap/amap-jsapi-loader/-/amap-jsapi-loader-1.0.1.tgz 246ms (cache miss)
+25 silly ADD node_modules/@amap/amap-jsapi-loader
+26 verbose cwd D:\aerial-program\new-platform\frontend
+27 verbose os Windows_NT 10.0.26200
+28 verbose node v24.15.0
+29 verbose npm  v11.12.1
+30 verbose exit 0
+31 info ok
