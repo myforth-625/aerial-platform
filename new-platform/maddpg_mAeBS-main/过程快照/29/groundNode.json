@@ -1,0 +1,18 @@
+[ {
+  "id" : "7",
+  "name" : "GROUND1",
+  "type" : "groundStation",
+  "ip" : null,
+  "longitude" : "116.35827300000000000000",
+  "latitude" : "39.96470500000000000000",
+  "altitude" : "70.0",
+  "portNum" : null,
+  "networkId" : "defaultGroundNetwork",
+  "signalRadius" : "210.0",
+  "extra" : {
+    "dataTransferred" : "1.2967091252642655E8"
+  },
+  "snapshotTime" : "2025-10-08T11:00:29",
+  "snapshotTimeSlot" : 29,
+  "scenarioId" : 61
+} ]

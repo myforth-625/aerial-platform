@@ -1,0 +1,702 @@
+[
+    {
+        "id": "1",
+        "name": "Terminal001",
+        "longitude": "116.3568382523140201101342",
+        "latitude": "39.9635028357410533317307",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "2",
+        "name": "Terminal002",
+        "longitude": "116.3567798940158013465407",
+        "latitude": "39.9630811987102561033680",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "3",
+        "name": "Terminal003",
+        "longitude": "116.3573619120741682309017",
+        "latitude": "39.9630726098978712457210",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "4",
+        "name": "Terminal004",
+        "longitude": "116.3568599603367914596674",
+        "latitude": "39.9640859847764531309622",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "5",
+        "name": "Terminal005",
+        "longitude": "116.3577776674368635667633",
+        "latitude": "39.9636125084564497456086",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "6",
+        "name": "Terminal006",
+        "longitude": "116.3566108570747417161328",
+        "latitude": "39.9638731442274774963153",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "7",
+        "name": "Terminal007",
+        "longitude": "116.3562553923484159668078",
+        "latitude": "39.9636889184694936716369",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "8",
+        "name": "Terminal008",
+        "longitude": "116.3564830979184847592478",
+        "latitude": "39.9638776535001056799956",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "9",
+        "name": "Terminal009",
+        "longitude": "116.3567912531787840180186",
+        "latitude": "39.9636179609674684343190",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "10",
+        "name": "Terminal010",
+        "longitude": "116.3574664122254631593023",
+        "latitude": "39.9631428769949437196374",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "11",
+        "name": "Terminal011",
+        "longitude": "116.3572697587650850437058",
+        "latitude": "39.9633342871878625146564",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "12",
+        "name": "Terminal012",
+        "longitude": "116.3570012620315026197204",
+        "latitude": "39.9630116675374864598780",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "13",
+        "name": "Terminal013",
+        "longitude": "116.3568674227278876287528",
+        "latitude": "39.9631468152679261152116",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "14",
+        "name": "Terminal014",
+        "longitude": "116.3571077587317148527291",
+        "latitude": "39.9633831615666963443800",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "15",
+        "name": "Terminal015",
+        "longitude": "116.3569525992182889240212",
+        "latitude": "39.9630989554497588756021",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "16",
+        "name": "Terminal016",
+        "longitude": "116.3572291668346281312552",
+        "latitude": "39.9635699787725044984654",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "17",
+        "name": "Terminal017",
+        "longitude": "116.3565921143484303001969",
+        "latitude": "39.9637349995121056167591",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "18",
+        "name": "Terminal018",
+        "longitude": "116.3570098940960093614194",
+        "latitude": "39.9631286355778527763505",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "19",
+        "name": "Terminal019",
+        "longitude": "116.3563112925943414666108",
+        "latitude": "39.9632751181908218995886",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "20",
+        "name": "Terminal020",
+        "longitude": "116.3572101349548830739877",
+        "latitude": "39.9635318054349113481294",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "21",
+        "name": "Terminal021",
+        "longitude": "116.3572850255481796466484",
+        "latitude": "39.9631969023325410717007",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "22",
+        "name": "Terminal022",
+        "longitude": "116.3573973119503364159755",
+        "latitude": "39.9630994537513046793720",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "23",
+        "name": "Terminal023",
+        "longitude": "116.3569641506239946693313",
+        "latitude": "39.9634087610160477765930",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "24",
+        "name": "Terminal024",
+        "longitude": "116.3571159433217445666742",
+        "latitude": "39.9638188370215274858310",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "25",
+        "name": "Terminal025",
+        "longitude": "116.3567070376866325887022",
+        "latitude": "39.9635167862716755848851",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "26",
+        "name": "Terminal026",
+        "longitude": "116.3564049727198437267361",
+        "latitude": "39.9639268663153401917043",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "27",
+        "name": "Terminal027",
+        "longitude": "116.3561342790995212226335",
+        "latitude": "39.9630035380334547312486",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "28",
+        "name": "Terminal028",
+        "longitude": "116.3572953825275106964909",
+        "latitude": "39.9633715189236013998197",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "29",
+        "name": "Terminal029",
+        "longitude": "116.3566864647954872680202",
+        "latitude": "39.9631538265145138666412",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "30",
+        "name": "Terminal030",
+        "longitude": "116.3571907787643198162186",
+        "latitude": "39.9638089733719468199524",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "31",
+        "name": "Terminal031",
+        "longitude": "116.3600500615682165062026",
+        "latitude": "39.9619171103157739821654",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "32",
+        "name": "Terminal032",
+        "longitude": "116.3606147000398891577788",
+        "latitude": "39.9621624716209566940961",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "33",
+        "name": "Terminal033",
+        "longitude": "116.3604972796437664328550",
+        "latitude": "39.9623507921034999412768",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "34",
+        "name": "Terminal034",
+        "longitude": "116.3598782722609286111037",
+        "latitude": "39.9614971783731860455191",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "35",
+        "name": "Terminal035",
+        "longitude": "116.3600668815117842314066",
+        "latitude": "39.9623637372387321420319",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "36",
+        "name": "Terminal036",
+        "longitude": "116.3605027391982531526082",
+        "latitude": "39.9619763596137076433479",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "37",
+        "name": "Terminal037",
+        "longitude": "116.3601922369612680085993",
+        "latitude": "39.9611681982510731359071",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "38",
+        "name": "Terminal038",
+        "longitude": "116.3590995202226707760929",
+        "latitude": "39.9623073405427859938754",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "39",
+        "name": "Terminal039",
+        "longitude": "116.3606576344460705740858",
+        "latitude": "39.9612860937605205435830",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "40",
+        "name": "Terminal040",
+        "longitude": "116.3601446821505618345327",
+        "latitude": "39.9627473066029281767442",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "41",
+        "name": "Terminal041",
+        "longitude": "116.3607395933443484636882",
+        "latitude": "39.9623397379069942303431",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "42",
+        "name": "Terminal042",
+        "longitude": "116.3598546105675097805943",
+        "latitude": "39.9627709009258254013730",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "43",
+        "name": "Terminal043",
+        "longitude": "116.3604990099986054019610",
+        "latitude": "39.9619167926093368237161",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "44",
+        "name": "Terminal044",
+        "longitude": "116.3607869420075076050125",
+        "latitude": "39.9621688929821274882670",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "45",
+        "name": "Terminal045",
+        "longitude": "116.3599033706015291045333",
+        "latitude": "39.9625919388229462470008",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "46",
+        "name": "Terminal046",
+        "longitude": "116.3603266337380688355552",
+        "latitude": "39.9616619681282188025762",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "47",
+        "name": "Terminal047",
+        "longitude": "116.3607678144557837640605",
+        "latitude": "39.9618629702273864268136",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "48",
+        "name": "Terminal048",
+        "longitude": "116.3602675007143858465497",
+        "latitude": "39.9624101068498731592626",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "49",
+        "name": "Terminal049",
+        "longitude": "116.3592172954005548035639",
+        "latitude": "39.9629128117310514767269",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "50",
+        "name": "Terminal050",
+        "longitude": "116.3605664819215661509588",
+        "latitude": "39.9617073894177821102858",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "51",
+        "name": "Terminal051",
+        "longitude": "116.3603413799835664121929",
+        "latitude": "39.9621579442876679877372",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "52",
+        "name": "Terminal052",
+        "longitude": "116.3603574250523138289282",
+        "latitude": "39.9617430294068611829061",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "53",
+        "name": "Terminal053",
+        "longitude": "116.3604927306757303995255",
+        "latitude": "39.9617696093292451564594",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "54",
+        "name": "Terminal054",
+        "longitude": "116.3603205310888029089256",
+        "latitude": "39.9624181146701786815356",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "55",
+        "name": "Terminal055",
+        "longitude": "116.3602597599035135544909",
+        "latitude": "39.9626406959289681708469",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "56",
+        "name": "Terminal056",
+        "longitude": "116.3607745499584211756883",
+        "latitude": "39.9621321984800843551966",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "57",
+        "name": "Terminal057",
+        "longitude": "116.3603765395378530911330",
+        "latitude": "39.9618064668706338693482",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "58",
+        "name": "Terminal058",
+        "longitude": "116.3600433597848962108401",
+        "latitude": "39.9622542180402930966920",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "59",
+        "name": "Terminal059",
+        "longitude": "116.3600326600493843898221",
+        "latitude": "39.9620855860620451949217",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "60",
+        "name": "Terminal060",
+        "longitude": "116.3602311844524876960350",
+        "latitude": "39.9618805172540305647999",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "61",
+        "name": "Terminal061",
+        "longitude": "116.3604661034030556265861",
+        "latitude": "39.9619587820847641523869",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "62",
+        "name": "Terminal062",
+        "longitude": "116.3601830887606212172614",
+        "latitude": "39.9619727292147999264671",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "63",
+        "name": "Terminal063",
+        "longitude": "116.3601746861379666597713",
+        "latitude": "39.9623865219998961606507",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "64",
+        "name": "Terminal064",
+        "longitude": "116.3598650923272259660735",
+        "latitude": "39.9620834038926204812014",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "65",
+        "name": "Terminal065",
+        "longitude": "116.3602926667338550714703",
+        "latitude": "39.9621051223497474325086",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "66",
+        "name": "Terminal066",
+        "longitude": "116.3594625867664973384308",
+        "latitude": "39.9647694948066103393103",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "67",
+        "name": "Terminal067",
+        "longitude": "116.3589389321784466346799",
+        "latitude": "39.9641223021678015925318",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "68",
+        "name": "Terminal068",
+        "longitude": "116.3584065535730331930608",
+        "latitude": "39.9639353089385238604336",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "69",
+        "name": "Terminal069",
+        "longitude": "116.3579315346287046395446",
+        "latitude": "39.9642424740426918106095",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "70",
+        "name": "Terminal070",
+        "longitude": "116.3579198413217312690904",
+        "latitude": "39.9638684274469824231346",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "71",
+        "name": "Terminal071",
+        "longitude": "116.3587245770250291343473",
+        "latitude": "39.9642873763280448429214",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "72",
+        "name": "Terminal072",
+        "longitude": "116.3585361803086613008418",
+        "latitude": "39.9639834984453585775555",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "73",
+        "name": "Terminal073",
+        "longitude": "116.3591715071609087317483",
+        "latitude": "39.9638615223988651337095",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "74",
+        "name": "Terminal074",
+        "longitude": "116.3588180889975802756453",
+        "latitude": "39.9650000000000034106051",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "75",
+        "name": "Terminal075",
+        "longitude": "116.3579931604690074209429",
+        "latitude": "39.9642014993192020710921",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "76",
+        "name": "Terminal076",
+        "longitude": "116.3581086245217619534742",
+        "latitude": "39.9640941806657394863578",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "77",
+        "name": "Terminal077",
+        "longitude": "116.3587973887939739370267",
+        "latitude": "39.9645097943035167986636",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "78",
+        "name": "Terminal078",
+        "longitude": "116.3577991644076519150985",
+        "latitude": "39.9642133896187417008150",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "79",
+        "name": "Terminal079",
+        "longitude": "116.3589994916925434154109",
+        "latitude": "39.9648815490989548493417",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "80",
+        "name": "Terminal080",
+        "longitude": "116.3579833158433132211940",
+        "latitude": "39.9635073146158319445931",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "81",
+        "name": "Terminal081",
+        "longitude": "116.3580910718139449500086",
+        "latitude": "39.9650000000000034106051",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "82",
+        "name": "Terminal082",
+        "longitude": "116.3590659196684669041133",
+        "latitude": "39.9639312070491143913387",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "83",
+        "name": "Terminal083",
+        "longitude": "116.3589238833607453216246",
+        "latitude": "39.9641535498712983098812",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "84",
+        "name": "Terminal084",
+        "longitude": "116.3589780332390262174158",
+        "latitude": "39.9635911474880387572739",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "85",
+        "name": "Terminal085",
+        "longitude": "116.3582092803050613838423",
+        "latitude": "39.9642232828323002991056",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "86",
+        "name": "Terminal086",
+        "longitude": "116.3586141157787920974442",
+        "latitude": "39.9640032138287963903167",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "87",
+        "name": "Terminal087",
+        "longitude": "116.3589217265087540909008",
+        "latitude": "39.9641930793086359585686",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "88",
+        "name": "Terminal088",
+        "longitude": "116.3596488941714142129058",
+        "latitude": "39.9639909094326171157263",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "89",
+        "name": "Terminal089",
+        "longitude": "116.3581969350599365498056",
+        "latitude": "39.9641314986631712713461",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "90",
+        "name": "Terminal090",
+        "longitude": "116.3586796369942817364063",
+        "latitude": "39.9641177579059316826715",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "91",
+        "name": "Terminal091",
+        "longitude": "116.3583691469363117221292",
+        "latitude": "39.9649011379776553098964",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "92",
+        "name": "Terminal092",
+        "longitude": "116.3579017016593439848293",
+        "latitude": "39.9639374472546720085120",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "93",
+        "name": "Terminal093",
+        "longitude": "116.3580130868274835620468",
+        "latitude": "39.9638682146108337178703",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "94",
+        "name": "Terminal094",
+        "longitude": "116.3590696277774725331255",
+        "latitude": "39.9640275760786138903313",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "95",
+        "name": "Terminal095",
+        "longitude": "116.3586801781398634147990",
+        "latitude": "39.9640477117004095930497",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "96",
+        "name": "Terminal096",
+        "longitude": "116.3581186646821521435413",
+        "latitude": "39.9639535584008598334549",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "97",
+        "name": "Terminal097",
+        "longitude": "116.3587395634539802813379",
+        "latitude": "39.9634774202830485023696",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "98",
+        "name": "Terminal098",
+        "longitude": "116.3587113655645026710772",
+        "latitude": "39.9636022324746775780113",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "99",
+        "name": "Terminal099",
+        "longitude": "116.3588408354131473743109",
+        "latitude": "39.9642275287008104101005",
+        "type": "GroundTerminal"
+    },
+    {
+        "id": "100",
+        "name": "Terminal100",
+        "longitude": "116.3581981200364623418864",
+        "latitude": "39.9644874878851936728097",
+        "type": "GroundTerminal"
+    }
+]

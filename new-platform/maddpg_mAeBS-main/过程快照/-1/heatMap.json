@@ -1,0 +1,169 @@
+[ {
+  "id" : 97172,
+  "entityType" : "TestAerialNodeHeatMapItem",
+  "entityId" : "TestAerialNodeHeatMapItem1",
+  "info" : {
+    "latitude" : "39.963097",
+    "longitude" : "116.356744",
+    "properties" : {
+      "count" : 157
+    }
+  },
+  "snapshotTime" : "2025-10-08T10:59:59",
+  "snapshotTimeSlot" : -1,
+  "scenarioId" : 61
+}, {
+  "id" : 97173,
+  "entityType" : "TestAerialNodeHeatMapItem",
+  "entityId" : "TestAerialNodeHeatMapItem2",
+  "info" : {
+    "latitude" : "39.962222",
+    "longitude" : "116.35681",
+    "properties" : {
+      "count" : 186
+    }
+  },
+  "snapshotTime" : "2025-10-08T10:59:59",
+  "snapshotTimeSlot" : -1,
+  "scenarioId" : 61
+}, {
+  "id" : 97174,
+  "entityType" : "TestAerialNodeHeatMapItem",
+  "entityId" : "TestAerialNodeHeatMapItem3",
+  "info" : {
+    "latitude" : "39.964497",
+    "longitude" : "116.359629",
+    "properties" : {
+      "count" : 137
+    }
+  },
+  "snapshotTime" : "2025-10-08T10:59:59",
+  "snapshotTimeSlot" : -1,
+  "scenarioId" : 61
+}, {
+  "id" : 97175,
+  "entityType" : "TestAerialNodeHeatMapItem",
+  "entityId" : "TestAerialNodeHeatMapItem4",
+  "info" : {
+    "latitude" : "39.9630316",
+    "longitude" : "116.360545",
+    "properties" : {
+      "count" : 108
+    }
+  },
+  "snapshotTime" : "2025-10-08T10:59:59",
+  "snapshotTimeSlot" : -1,
+  "scenarioId" : 61
+}, {
+  "id" : 97176,
+  "entityType" : "TestAerialNodeHeatMapItem",
+  "entityId" : "TestAerialNodeHeatMapItem5",
+  "info" : {
+    "latitude" : "39.962991",
+    "longitude" : "116.355842",
+    "properties" : {
+      "count" : 122
+    }
+  },
+  "snapshotTime" : "2025-10-08T10:59:59",
+  "snapshotTimeSlot" : -1,
+  "scenarioId" : 61
+}, {
+  "id" : 97177,
+  "entityType" : "TestAerialNodeHeatMapItem",
+  "entityId" : "TestAerialNodeHeatMapItem6",
+  "info" : {
+    "latitude" : "39.964136",
+    "longitude" : "116.356729",
+    "properties" : {
+      "count" : 156
+    }
+  },
+  "snapshotTime" : "2025-10-08T10:59:59",
+  "snapshotTimeSlot" : -1,
+  "scenarioId" : 61
+}, {
+  "id" : 97178,
+  "entityType" : "TestAerialNodeHeatMapItem",
+  "entityId" : "TestAerialNodeHeatMapItem1",
+  "info" : {
+    "latitude" : "39.963097",
+    "longitude" : "116.356744",
+    "properties" : {
+      "count" : 130
+    }
+  },
+  "snapshotTime" : "2025-10-08T10:59:59",
+  "snapshotTimeSlot" : -1,
+  "scenarioId" : 61
+}, {
+  "id" : 97179,
+  "entityType" : "TestAerialNodeHeatMapItem",
+  "entityId" : "TestAerialNodeHeatMapItem2",
+  "info" : {
+    "latitude" : "39.962222",
+    "longitude" : "116.35681",
+    "properties" : {
+      "count" : 186
+    }
+  },
+  "snapshotTime" : "2025-10-08T10:59:59",
+  "snapshotTimeSlot" : -1,
+  "scenarioId" : 61
+}, {
+  "id" : 97180,
+  "entityType" : "TestAerialNodeHeatMapItem",
+  "entityId" : "TestAerialNodeHeatMapItem3",
+  "info" : {
+    "latitude" : "39.9630316",
+    "longitude" : "116.360545",
+    "properties" : {
+      "count" : 174
+    }
+  },
+  "snapshotTime" : "2025-10-08T10:59:59",
+  "snapshotTimeSlot" : -1,
+  "scenarioId" : 61
+}, {
+  "id" : 97181,
+  "entityType" : "TestAerialNodeHeatMapItem",
+  "entityId" : "TestAerialNodeHeatMapItem4",
+  "info" : {
+    "latitude" : "39.964497",
+    "longitude" : "116.359629",
+    "properties" : {
+      "count" : 160
+    }
+  },
+  "snapshotTime" : "2025-10-08T10:59:59",
+  "snapshotTimeSlot" : -1,
+  "scenarioId" : 61
+}, {
+  "id" : 97182,
+  "entityType" : "TestAerialNodeHeatMapItem",
+  "entityId" : "TestAerialNodeHeatMapItem5",
+  "info" : {
+    "latitude" : "39.964136",
+    "longitude" : "116.356729",
+    "properties" : {
+      "count" : 133
+    }
+  },
+  "snapshotTime" : "2025-10-08T10:59:59",
+  "snapshotTimeSlot" : -1,
+  "scenarioId" : 61
+}, {
+  "id" : 97183,
+  "entityType" : "TestAerialNodeHeatMapItem",
+  "entityId" : "TestAerialNodeHeatMapItem6",
+  "info" : {
+    "latitude" : "39.962991",
+    "longitude" : "116.355842",
+    "properties" : {
+      "count" : 177
+    }
+  },
+  "snapshotTime" : "2025-10-08T10:59:59",
+  "snapshotTimeSlot" : -1,
+  "scenarioId" : 61
+} ]

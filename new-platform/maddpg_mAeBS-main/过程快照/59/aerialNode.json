@@ -1,0 +1,127 @@
+[ {
+  "id" : "1",
+  "name" : "UAV1",
+  "type" : "TestUAV",
+  "ip" : null,
+  "longitude" : "116.36024502992856355377",
+  "latitude" : "39.96413600000000343471",
+  "altitude" : "100.0",
+  "portNum" : null,
+  "networkId" : "defaultAerialNetwork",
+  "signalRadius" : "210.0",
+  "extra" : {
+    "direction" : [ 0, 0, 0 ],
+    "dataTransferred" : "0.0"
+  },
+  "snapshotTime" : "2025-10-08T11:00:59",
+  "snapshotTimeSlot" : 59,
+  "scenarioId" : 61,
+  "layer" : "UAV",
+  "speed" : "10.0",
+  "maxGroundSignalAngle" : "60.0"
+}, {
+  "id" : "2",
+  "name" : "UAV2",
+  "type" : "TestUAV",
+  "ip" : null,
+  "longitude" : "116.35674400000000616728",
+  "latitude" : "39.96309699999999764941",
+  "altitude" : "100.0",
+  "portNum" : null,
+  "networkId" : "defaultAerialNetwork",
+  "signalRadius" : "210.0",
+  "extra" : {
+    "direction" : [ 0, 0, 0 ],
+    "dataTransferred" : "1.7943730484778285E7"
+  },
+  "snapshotTime" : "2025-10-08T11:00:59",
+  "snapshotTimeSlot" : 59,
+  "scenarioId" : 61,
+  "layer" : "UAV",
+  "speed" : "10.0",
+  "maxGroundSignalAngle" : "60.0"
+}, {
+  "id" : "3",
+  "name" : "UAV3",
+  "type" : "TestUAV",
+  "ip" : null,
+  "longitude" : "116.35680999999999585270",
+  "latitude" : "39.96222199999999702413",
+  "altitude" : "120.0",
+  "portNum" : null,
+  "networkId" : "defaultAerialNetwork",
+  "signalRadius" : "210.0",
+  "extra" : {
+    "direction" : [ 0, 0, 0 ],
+    "dataTransferred" : "8066202.5270823585"
+  },
+  "snapshotTime" : "2025-10-08T11:00:59",
+  "snapshotTimeSlot" : 59,
+  "scenarioId" : 61,
+  "layer" : "UAV",
+  "speed" : "10.0",
+  "maxGroundSignalAngle" : "60.0"
+}, {
+  "id" : "4",
+  "name" : "UAV4",
+  "type" : "TestUAV",
+  "ip" : null,
+  "longitude" : "116.36314502992856034780",
+  "latitude" : "39.96449700000000149203",
+  "altitude" : "100.0",
+  "portNum" : null,
+  "networkId" : "defaultAerialNetwork",
+  "signalRadius" : "210.0",
+  "extra" : {
+    "direction" : [ 0, 0, 0 ],
+    "dataTransferred" : "0.0"
+  },
+  "snapshotTime" : "2025-10-08T11:00:59",
+  "snapshotTimeSlot" : 59,
+  "scenarioId" : 61,
+  "layer" : "UAV",
+  "speed" : "10.0",
+  "maxGroundSignalAngle" : "60.0"
+}, {
+  "id" : "8",
+  "name" : "HAP1",
+  "type" : "HAP",
+  "ip" : null,
+  "longitude" : "116.35584200000000000000",
+  "latitude" : "39.96299100000000000000",
+  "altitude" : "220.0",
+  "portNum" : null,
+  "networkId" : "defaultAerialNetwork",
+  "signalRadius" : "210.0",
+  "extra" : {
+    "direction" : [ 1, 1, 1 ],
+    "dataTransferred" : "0.0"
+  },
+  "snapshotTime" : "2025-10-08T11:00:59",
+  "snapshotTimeSlot" : 59,
+  "scenarioId" : 61,
+  "layer" : "HAP",
+  "speed" : "10.0",
+  "maxGroundSignalAngle" : "60.0"
+}, {
+  "id" : "9",
+  "name" : "HAP2",
+  "type" : "HAP",
+  "ip" : null,
+  "longitude" : "116.36054500000000000000",
+  "latitude" : "39.96303160000000000000",
+  "altitude" : "230.0",
+  "portNum" : null,
+  "networkId" : "defaultAerialNetwork",
+  "signalRadius" : "210.0",
+  "extra" : {
+    "direction" : [ 1, 1, 1 ],
+    "dataTransferred" : "0.0"
+  },
+  "snapshotTime" : "2025-10-08T11:00:59",
+  "snapshotTimeSlot" : 59,
+  "scenarioId" : 61,
+  "layer" : "HAP",
+  "speed" : "10.0",
+  "maxGroundSignalAngle" : "60.0"
+} ]

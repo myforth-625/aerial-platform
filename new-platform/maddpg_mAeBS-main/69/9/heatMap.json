@@ -1,0 +1,85 @@
+[ {
+  "id" : 101398,
+  "entityType" : "TestAerialNodeHeatMapItem",
+  "entityId" : "TestAerialNodeHeatMapItem1",
+  "info" : {
+    "latitude" : "39.9642770000000027152964",
+    "longitude" : "116.3596289999999982001100",
+    "properties" : {
+      "count" : 118
+    }
+  },
+  "snapshotTime" : "2025-10-08T11:00:09",
+  "snapshotTimeSlot" : 9,
+  "scenarioId" : 69
+}, {
+  "id" : 101399,
+  "entityType" : "TestAerialNodeHeatMapItem",
+  "entityId" : "TestAerialNodeHeatMapItem2",
+  "info" : {
+    "latitude" : "39.9630316",
+    "longitude" : "116.360545",
+    "properties" : {
+      "count" : 139
+    }
+  },
+  "snapshotTime" : "2025-10-08T11:00:09",
+  "snapshotTimeSlot" : 9,
+  "scenarioId" : 69
+}, {
+  "id" : 101400,
+  "entityType" : "TestAerialNodeHeatMapItem",
+  "entityId" : "TestAerialNodeHeatMapItem3",
+  "info" : {
+    "latitude" : "39.962991",
+    "longitude" : "116.355842",
+    "properties" : {
+      "count" : 189
+    }
+  },
+  "snapshotTime" : "2025-10-08T11:00:09",
+  "snapshotTimeSlot" : 9,
+  "scenarioId" : 69
+}, {
+  "id" : 101401,
+  "entityType" : "TestAerialNodeHeatMapItem",
+  "entityId" : "TestAerialNodeHeatMapItem4",
+  "info" : {
+    "latitude" : "39.9630969999999976494109",
+    "longitude" : "116.3569492666666747027193",
+    "properties" : {
+      "count" : 135
+    }
+  },
+  "snapshotTime" : "2025-10-08T11:00:09",
+  "snapshotTimeSlot" : 9,
+  "scenarioId" : 69
+}, {
+  "id" : 101402,
+  "entityType" : "TestAerialNodeHeatMapItem",
+  "entityId" : "TestAerialNodeHeatMapItem5",
+  "info" : {
+    "latitude" : "39.96413600000000343470674124546349048614501953125",
+    "longitude" : "116.356729000000001406078808940947055816650390625",
+    "properties" : {
+      "count" : 113
+    }
+  },
+  "snapshotTime" : "2025-10-08T11:00:09",
+  "snapshotTimeSlot" : 9,
+  "scenarioId" : 69
+}, {
+  "id" : 101403,
+  "entityType" : "TestAerialNodeHeatMapItem",
+  "entityId" : "TestAerialNodeHeatMapItem6",
+  "info" : {
+    "latitude" : "39.9622219999999970241333",
+    "longitude" : "116.3568099999999958527042",
+    "properties" : {
+      "count" : 119
+    }
+  },
+  "snapshotTime" : "2025-10-08T11:00:09",
+  "snapshotTimeSlot" : 9,
+  "scenarioId" : 69
+} ]

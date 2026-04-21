@@ -1,0 +1,45 @@
+[ {
+  "id" : "001",
+  "name" : null,
+  "type" : "test",
+  "ip" : null,
+  "longitude" : "116.35745500000000000000",
+  "latitude" : "39.96184500000000000000",
+  "altitude" : "0.0",
+  "portNum" : null,
+  "networkId" : "defaultGroundNetwork",
+  "signalRadius" : "210.0",
+  "extra" : {
+    "dataTransferred" : "2518316.1462948956"
+  },
+  "snapshotTime" : "2021-12-08T11:00:08",
+  "snapshotTimeSlot" : 8,
+  "scenarioId" : 1,
+  "serviceType" : "eMMB",
+  "associatedSlice" : null,
+  "associatedNodeId" : null,
+  "terminalAbility" : null,
+  "speed" : "10.0"
+}, {
+  "id" : "002",
+  "name" : null,
+  "type" : "mobile",
+  "ip" : null,
+  "longitude" : "116.36044325544557005257",
+  "latitude" : "39.96161147665510923409",
+  "altitude" : "0.0",
+  "portNum" : null,
+  "networkId" : "defaultGroundNetwork",
+  "signalRadius" : "210.0",
+  "extra" : {
+    "dataTransferred" : "5375074.005552738"
+  },
+  "snapshotTime" : "2021-12-08T11:00:08",
+  "snapshotTimeSlot" : 8,
+  "scenarioId" : 1,
+  "serviceType" : "eMMB",
+  "associatedSlice" : null,
+  "associatedNodeId" : null,
+  "terminalAbility" : null,
+  "speed" : "10.0"
+} ]

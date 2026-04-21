@@ -1,0 +1,158 @@
+[
+    {
+        "id": "1",
+        "name": "UAV1",
+        "type": "TestUAV",
+        "ip": null,
+        "longitude": "116.3569753200000036486017",
+        "latitude": "39.9650160000000553850441",
+        "altitude": "300.0",
+        "portNum": null,
+        "networkId": "defaultAerialNetwork",
+        "signalRadius": "210.0",
+        "extra": {
+            "direction": [
+                1,
+                1,
+                1
+            ],
+            "dataTransferred": "0.0"
+        },
+        "snapshotTime": "2025-10-08T10:59:59",
+        "snapshotTimeSlot": -1,
+        "scenarioId": 61,
+        "layer": "UAV",
+        "speed": "10.0",
+        "maxGroundSignalAngle": "60.0"
+    },
+    {
+        "id": "2",
+        "name": "UAV2",
+        "type": "TestUAV",
+        "ip": null,
+        "longitude": "116.3615000000000065938366",
+        "latitude": "39.9638450000000418071977",
+        "altitude": "300.0",
+        "portNum": null,
+        "networkId": "defaultAerialNetwork",
+        "signalRadius": "210.0",
+        "extra": {
+            "direction": [
+                1,
+                1,
+                1
+            ],
+            "dataTransferred": "0.0"
+        },
+        "snapshotTime": "2025-10-08T10:59:59",
+        "snapshotTimeSlot": -1,
+        "scenarioId": 61,
+        "layer": "UAV",
+        "speed": "10.0",
+        "maxGroundSignalAngle": "60.0"
+    },
+    {
+        "id": "3",
+        "name": "UAV3",
+        "type": "TestUAV",
+        "ip": null,
+        "longitude": "116.3571794799999992164885",
+        "latitude": "39.9620019999999840365490",
+        "altitude": "100.0",
+        "portNum": null,
+        "networkId": "defaultAerialNetwork",
+        "signalRadius": "210.0",
+        "extra": {
+            "direction": [
+                1,
+                1,
+                1
+            ],
+            "dataTransferred": "0.0"
+        },
+        "snapshotTime": "2025-10-08T10:59:59",
+        "snapshotTimeSlot": -1,
+        "scenarioId": 61,
+        "layer": "UAV",
+        "speed": "10.0",
+        "maxGroundSignalAngle": "60.0"
+    },
+    {
+        "id": "4",
+        "name": "UAV4",
+        "type": "TestUAV",
+        "ip": null,
+        "longitude": "116.3597111066666656142843",
+        "latitude": "39.9612999999999942701834",
+        "altitude": "300.0",
+        "portNum": null,
+        "networkId": "defaultAerialNetwork",
+        "signalRadius": "210.0",
+        "extra": {
+            "direction": [
+                1,
+                1,
+                1
+            ],
+            "dataTransferred": "0.0"
+        },
+        "snapshotTime": "2025-10-08T10:59:59",
+        "snapshotTimeSlot": -1,
+        "scenarioId": 61,
+        "layer": "UAV",
+        "speed": "10.0",
+        "maxGroundSignalAngle": "60.0"
+    },
+    {
+        "id": "8",
+        "name": "HAP1",
+        "type": "HAP",
+        "ip": null,
+        "longitude": "116.35584200000000000000",
+        "latitude": "39.96299100000000000000",
+        "altitude": "220.0",
+        "portNum": null,
+        "networkId": "defaultAerialNetwork",
+        "signalRadius": "210.0",
+        "extra": {
+            "direction": [
+                1,
+                1,
+                1
+            ],
+            "dataTransferred": "0.0"
+        },
+        "snapshotTime": "2025-10-08T10:59:59",
+        "snapshotTimeSlot": -1,
+        "scenarioId": 61,
+        "layer": "HAP",
+        "speed": "10.0",
+        "maxGroundSignalAngle": "60.0"
+    },
+    {
+        "id": "9",
+        "name": "HAP2",
+        "type": "HAP",
+        "ip": null,
+        "longitude": "116.36054500000000000000",
+        "latitude": "39.96303160000000000000",
+        "altitude": "230.0",
+        "portNum": null,
+        "networkId": "defaultAerialNetwork",
+        "signalRadius": "210.0",
+        "extra": {
+            "direction": [
+                1,
+                1,
+                1
+            ],
+            "dataTransferred": "0.0"
+        },
+        "snapshotTime": "2025-10-08T10:59:59",
+        "snapshotTimeSlot": -1,
+        "scenarioId": 61,
+        "layer": "HAP",
+        "speed": "10.0",
+        "maxGroundSignalAngle": "60.0"
+    }
+]

@@ -1,0 +1,85 @@
+[ {
+  "id" : 97478,
+  "entityType" : "TestAerialNodeHeatMapItem",
+  "entityId" : "TestAerialNodeHeatMapItem1",
+  "info" : {
+    "latitude" : "39.9630969999999976494109",
+    "longitude" : "116.3567440000000061672836",
+    "properties" : {
+      "count" : 138
+    }
+  },
+  "snapshotTime" : "2025-10-08T11:00:49",
+  "snapshotTimeSlot" : 49,
+  "scenarioId" : 61
+}, {
+  "id" : 97479,
+  "entityType" : "TestAerialNodeHeatMapItem",
+  "entityId" : "TestAerialNodeHeatMapItem2",
+  "info" : {
+    "latitude" : "39.9622219999999970241333",
+    "longitude" : "116.3568099999999958527042",
+    "properties" : {
+      "count" : 103
+    }
+  },
+  "snapshotTime" : "2025-10-08T11:00:49",
+  "snapshotTimeSlot" : 49,
+  "scenarioId" : 61
+}, {
+  "id" : 97480,
+  "entityType" : "TestAerialNodeHeatMapItem",
+  "entityId" : "TestAerialNodeHeatMapItem3",
+  "info" : {
+    "latitude" : "39.9630316",
+    "longitude" : "116.360545",
+    "properties" : {
+      "count" : 195
+    }
+  },
+  "snapshotTime" : "2025-10-08T11:00:49",
+  "snapshotTimeSlot" : 49,
+  "scenarioId" : 61
+}, {
+  "id" : 97481,
+  "entityType" : "TestAerialNodeHeatMapItem",
+  "entityId" : "TestAerialNodeHeatMapItem4",
+  "info" : {
+    "latitude" : "39.9644970000000014920261",
+    "longitude" : "116.3625590249404666565169",
+    "properties" : {
+      "count" : 156
+    }
+  },
+  "snapshotTime" : "2025-10-08T11:00:49",
+  "snapshotTimeSlot" : 49,
+  "scenarioId" : 61
+}, {
+  "id" : 97482,
+  "entityType" : "TestAerialNodeHeatMapItem",
+  "entityId" : "TestAerialNodeHeatMapItem5",
+  "info" : {
+    "latitude" : "39.9641360000000034347067",
+    "longitude" : "116.3596590249404698624858",
+    "properties" : {
+      "count" : 110
+    }
+  },
+  "snapshotTime" : "2025-10-08T11:00:49",
+  "snapshotTimeSlot" : 49,
+  "scenarioId" : 61
+}, {
+  "id" : 97483,
+  "entityType" : "TestAerialNodeHeatMapItem",
+  "entityId" : "TestAerialNodeHeatMapItem6",
+  "info" : {
+    "latitude" : "39.962991",
+    "longitude" : "116.355842",
+    "properties" : {
+      "count" : 118
+    }
+  },
+  "snapshotTime" : "2025-10-08T11:00:49",
+  "snapshotTimeSlot" : 49,
+  "scenarioId" : 61
+} ]

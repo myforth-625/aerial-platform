@@ -1,0 +1,85 @@
+[ {
+  "id" : 101338,
+  "entityType" : "TestAerialNodeHeatMapItem",
+  "entityId" : "TestAerialNodeHeatMapItem1",
+  "info" : {
+    "latitude" : "39.964497",
+    "longitude" : "116.359629",
+    "properties" : {
+      "count" : 177
+    }
+  },
+  "snapshotTime" : "2025-10-08T10:59:59",
+  "snapshotTimeSlot" : -1,
+  "scenarioId" : 69
+}, {
+  "id" : 101339,
+  "entityType" : "TestAerialNodeHeatMapItem",
+  "entityId" : "TestAerialNodeHeatMapItem2",
+  "info" : {
+    "latitude" : "39.9630316",
+    "longitude" : "116.360545",
+    "properties" : {
+      "count" : 117
+    }
+  },
+  "snapshotTime" : "2025-10-08T10:59:59",
+  "snapshotTimeSlot" : -1,
+  "scenarioId" : 69
+}, {
+  "id" : 101340,
+  "entityType" : "TestAerialNodeHeatMapItem",
+  "entityId" : "TestAerialNodeHeatMapItem3",
+  "info" : {
+    "latitude" : "39.962991",
+    "longitude" : "116.355842",
+    "properties" : {
+      "count" : 133
+    }
+  },
+  "snapshotTime" : "2025-10-08T10:59:59",
+  "snapshotTimeSlot" : -1,
+  "scenarioId" : 69
+}, {
+  "id" : 101341,
+  "entityType" : "TestAerialNodeHeatMapItem",
+  "entityId" : "TestAerialNodeHeatMapItem4",
+  "info" : {
+    "latitude" : "39.963097",
+    "longitude" : "116.356744",
+    "properties" : {
+      "count" : 181
+    }
+  },
+  "snapshotTime" : "2025-10-08T10:59:59",
+  "snapshotTimeSlot" : -1,
+  "scenarioId" : 69
+}, {
+  "id" : 101342,
+  "entityType" : "TestAerialNodeHeatMapItem",
+  "entityId" : "TestAerialNodeHeatMapItem5",
+  "info" : {
+    "latitude" : "39.964136",
+    "longitude" : "116.356729",
+    "properties" : {
+      "count" : 115
+    }
+  },
+  "snapshotTime" : "2025-10-08T10:59:59",
+  "snapshotTimeSlot" : -1,
+  "scenarioId" : 69
+}, {
+  "id" : 101343,
+  "entityType" : "TestAerialNodeHeatMapItem",
+  "entityId" : "TestAerialNodeHeatMapItem6",
+  "info" : {
+    "latitude" : "39.962222",
+    "longitude" : "116.35681",
+    "properties" : {
+      "count" : 177
+    }
+  },
+  "snapshotTime" : "2025-10-08T10:59:59",
+  "snapshotTimeSlot" : -1,
+  "scenarioId" : 69
+} ]
