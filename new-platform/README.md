@@ -36,4 +36,4 @@ VITE_API_BASE_URL=http://localhost:8084/api
 
 - The simulation data is generated in memory.
 - Algorithm integration is stubbed with a built-in generator.
-- No database is used.
+- No database is used.111
