@@ -12,7 +12,9 @@ import java.util.Map;
 
 /**
  * Produces frames from an explicit, user-provided node list.
- * All slots reuse the same node positions; links are auto-generated
+ * By default all slots reuse the same node positions, and an overload
+ * can interpolate from a start layout to a target layout.
+ * Links are auto-generated
  * (UAV ring + terminal-to-nearest-UAV + ground-station-to-UAV-0)
  * so the visualization still has a topology to draw.
  */
@@ -20,12 +22,27 @@ public class StaticPositionGenerator implements FrameGenerator {
 
     @Override
     public List<FrameData> generateFrames(SimulationRequest request) {
-        int totalSlots = Math.max(request.getTotalSlots(), 1);
-        List<NodeData> source = request.getNodes() != null ? request.getNodes() : new ArrayList<>();
+        List<NodeData> source = request.getNodes() != null ? request.getNodes() : new ArrayList<NodeData>();
+        return generateFrames(request, source, source);
+    }
 
-        List<NodeData> uavs = filterByType(source, NodeType.UAV);
-        List<NodeData> terminals = filterByType(source, NodeType.TERMINAL);
-        List<NodeData> groundStations = filterByType(source, NodeType.GROUND_STATION);
+    public List<FrameData> generateFrames(SimulationRequest request, List<NodeData> startNodes, List<NodeData> endNodes) {
+        int totalSlots = Math.max(request.getTotalSlots(), 1);
+        List<NodeData> safeStartNodes = startNodes != null ? startNodes : new ArrayList<NodeData>();
+        List<NodeData> safeEndNodes = endNodes != null ? endNodes : safeStartNodes;
+
+        List<NodeData> orderedStartNodes = cloneNodes(safeStartNodes);
+        Map<String, NodeData> endById = indexById(safeEndNodes);
+        Map<String, NodeData> startById = indexById(orderedStartNodes);
+        for (NodeData end : safeEndNodes) {
+            if (!startById.containsKey(end.getId())) {
+                orderedStartNodes.add(cloneNode(end));
+            }
+        }
+
+        List<NodeData> uavs = filterByType(safeEndNodes, NodeType.UAV);
+        List<NodeData> terminals = filterByType(safeEndNodes, NodeType.TERMINAL);
+        List<NodeData> groundStations = filterByType(safeEndNodes, NodeType.GROUND_STATION);
 
         List<LinkData> staticLinks = new ArrayList<>();
         for (int i = 0; i < uavs.size(); i++) {
@@ -50,12 +67,18 @@ public class StaticPositionGenerator implements FrameGenerator {
 
         List<FrameData> frames = new ArrayList<>();
         for (int slot = 0; slot < totalSlots; slot++) {
+            double progress = totalSlots == 1 ? 1.0 : (double) slot / (double) (totalSlots - 1);
             double angle = 2.0 * Math.PI * slot / Math.max(totalSlots, 1);
             Map<String, Double> metrics = new HashMap<>();
             metrics.put("throughput", 100.0 + 20.0 * Math.sin(angle));
             metrics.put("latency", 40.0 + 10.0 * Math.cos(angle));
 
-            frames.add(new FrameData(slot, cloneNodes(source), new ArrayList<>(staticLinks), metrics));
+            frames.add(new FrameData(
+                    slot,
+                    interpolateNodes(orderedStartNodes, endById, progress),
+                    new ArrayList<LinkData>(staticLinks),
+                    metrics
+            ));
         }
         return frames;
     }
@@ -71,8 +94,47 @@ public class StaticPositionGenerator implements FrameGenerator {
     private static List<NodeData> cloneNodes(List<NodeData> src) {
         List<NodeData> out = new ArrayList<>(src.size());
         for (NodeData n : src) {
-            out.add(new NodeData(n.getId(), n.getType(), n.getLng(), n.getLat(), n.getHeight(), n.getName()));
+            out.add(cloneNode(n));
         }
         return out;
+    }
+
+    private static NodeData cloneNode(NodeData src) {
+        return new NodeData(src.getId(), src.getType(), src.getLng(), src.getLat(), src.getHeight(), src.getName());
+    }
+
+    private static Map<String, NodeData> indexById(List<NodeData> nodes) {
+        Map<String, NodeData> out = new HashMap<>();
+        for (NodeData n : nodes) {
+            out.put(n.getId(), n);
+        }
+        return out;
+    }
+
+    private static List<NodeData> interpolateNodes(
+            List<NodeData> startNodes,
+            Map<String, NodeData> endById,
+            double progress
+    ) {
+        List<NodeData> out = new ArrayList<>(startNodes.size());
+        for (NodeData start : startNodes) {
+            NodeData end = endById.get(start.getId());
+            if (end == null) {
+                end = start;
+            }
+            out.add(new NodeData(
+                    start.getId(),
+                    end.getType() != null ? end.getType() : start.getType(),
+                    lerp(start.getLng(), end.getLng(), progress),
+                    lerp(start.getLat(), end.getLat(), progress),
+                    lerp(start.getHeight(), end.getHeight(), progress),
+                    end.getName() != null ? end.getName() : start.getName()
+            ));
+        }
+        return out;
+    }
+
+    private static double lerp(double from, double to, double progress) {
+        return from + (to - from) * progress;
     }
 }

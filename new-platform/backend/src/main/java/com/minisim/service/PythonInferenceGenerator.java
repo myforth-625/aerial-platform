@@ -19,9 +19,11 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import java.util.UUID;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Stream;
@@ -56,14 +58,11 @@ public class PythonInferenceGenerator implements FrameGenerator {
 
         List<NodeData> aerial = new ArrayList<>();
         List<NodeData> terminals = new ArrayList<>();
-        List<NodeData> others = new ArrayList<>();
         for (NodeData n : source) {
             if (n.getType() == NodeType.UAV || n.getType() == NodeType.HAP) {
                 aerial.add(n);
             } else if (n.getType() == NodeType.TERMINAL) {
                 terminals.add(n);
-            } else {
-                others.add(n);
             }
         }
 
@@ -85,13 +84,10 @@ public class PythonInferenceGenerator implements FrameGenerator {
             runPython(workDir);
 
             List<NodeData> updatedAerial = readAerialResult(workDir, aerial);
-            List<NodeData> merged = new ArrayList<>(updatedAerial.size() + terminals.size() + others.size());
-            merged.addAll(updatedAerial);
-            merged.addAll(terminals);
-            merged.addAll(others);
+            List<NodeData> finalNodes = mergeUpdatedAerial(source, updatedAerial);
 
-            SimulationRequest staticRequest = copyRequestWithNodes(request, merged);
-            return staticFallback.generateFrames(staticRequest);
+            SimulationRequest staticRequest = copyRequestWithNodes(request, finalNodes);
+            return staticFallback.generateFrames(staticRequest, source, finalNodes);
         } catch (IOException e) {
             throw new RuntimeException("Inference IO error: " + e.getMessage(), e);
         } catch (InterruptedException e) {
@@ -235,6 +231,53 @@ public class PythonInferenceGenerator implements FrameGenerator {
         copy.setCenterLat(src.getCenterLat());
         copy.setNodes(nodes);
         return copy;
+    }
+
+    private static List<NodeData> mergeUpdatedAerial(List<NodeData> source, List<NodeData> updatedAerial) {
+        Map<String, NodeData> updatedById = new HashMap<String, NodeData>();
+        for (NodeData node : updatedAerial) {
+            updatedById.put(node.getId(), node);
+        }
+
+        List<NodeData> merged = new ArrayList<NodeData>(source.size() + updatedAerial.size());
+        Set<String> consumedUpdatedIds = new HashSet<String>();
+        for (NodeData node : source) {
+            NodeData updated = updatedById.get(node.getId());
+            if (updated != null && (node.getType() == NodeType.UAV || node.getType() == NodeType.HAP)) {
+                merged.add(new NodeData(
+                        node.getId(),
+                        updated.getType() != null ? updated.getType() : node.getType(),
+                        updated.getLng(),
+                        updated.getLat(),
+                        updated.getHeight(),
+                        updated.getName() != null ? updated.getName() : node.getName()
+                ));
+                consumedUpdatedIds.add(updated.getId());
+            } else {
+                merged.add(new NodeData(
+                        node.getId(),
+                        node.getType(),
+                        node.getLng(),
+                        node.getLat(),
+                        node.getHeight(),
+                        node.getName()
+                ));
+            }
+        }
+
+        for (NodeData updated : updatedAerial) {
+            if (!consumedUpdatedIds.contains(updated.getId())) {
+                merged.add(new NodeData(
+                        updated.getId(),
+                        updated.getType(),
+                        updated.getLng(),
+                        updated.getLat(),
+                        updated.getHeight(),
+                        updated.getName()
+                ));
+            }
+        }
+        return merged;
     }
 
     private static double parseDouble(Object v) {
